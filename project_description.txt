@@ -1,0 +1,36 @@
+All living organisms consist of cells. All cells contain complete
+information about all the organism's traits encoded in the DNA
+molecules. These molecules are made of a few billions of nucleotides
+of four different types (adenine, thymine, cytosine and guanine,
+abbreviated A, T, C, and G) forming extremely long strands very
+densely packed within chromosomes. Human cells have 22 pairs of
+identical (within a pair) chromosomes and another pair of sex
+chromosomes X and Y. The DNA sequences of different people differ
+only by a fraction of a percent (something like 10 millions
+nucleotides) and these variations determine variations between
+people's traits. Relatively recently completed project called HapMap
+provides those DNA sequences collected from 4 groups of people:
+
+-- Yoruba in Ibadan, Nigeria (abbreviation: YRI)
+-- Japanese in Tokyo, Japan (abbreviation: JPT)
+-- Han Chinese in Beijing, China (abbreviation: CHB)
+-- CEPH (Utah residents with ancestry from northern and western Europe) (abbreviation: CEU)
+
+The data for all 23 pairs of the chromosomes for the people in 4 
+groups above are publicly available at:
+http://hapmap.ncbi.nlm.nih.gov/downloads/genotypes/2006-01/non-redundant/
+
+The detailed description of the data is located here:
+http://hapmap.ncbi.nlm.nih.gov/downloads/genotypes/2006-01/00README.txt
+
+My goal is to determine for each DNA sequence what group out of 4
+listed above it belongs to. Of course, the HapMap datasets already
+have this information, so it will be a supervised learning problem.=
+I am going to split the data into parts and use one part to train 
+my classification algorithm and another part - to test it. The 
+performance of the algorithm will be estimated by its 
+misclassification rate (the smaller, the better).
+
+
+
+
